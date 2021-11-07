@@ -1,0 +1,22 @@
+{
+    "about_me": "HAKKIMDA",
+    "technologies_navbar": "TEKNOLOJİLER",
+    "contact": "İLETİŞİM",
+    "hello_me": "Merhaba, Ben",
+    "about_info": "Merhaba ben Çağlar Evren. Mühendis ve Yazılım Geliştiriciyim. İyi yazılımcılar işlerine tutkuyla yaklaşır, daha iyileri ise paylaşarak.",
+    "technologies": "Kullandığım teknolojiler: Html, Css, Sass, Bootstrap, Tailwind Css, Vanilla JavaScript, Vue Js, React Js, Spring Boot ve Git(Version Control).",
+    "youtube_info_one": "Eski youtube içerik üreticisi, 'Web Geliştirme Yol Haritası', '14 Vs Code Eklentisi' ve 'Html Dersleri' videoları.",
+    "youtube_info_two": "Şuan neden video çekmiyorsun sorularını yanıtlıyor.",
+    "youtube_btn": "Youtube Kanalını Gör",
+    "contact_form": "İletişim için lütfen aşağıdaki formu doldurunuz.",
+    "contact_form_info": "Öncelikle benimle iletişime geçmek istediğiniz için teşekkür ederim. En geç 24 saat içinde size dönüş sağlayacağım. Sizlerle iletişime geçmek yaptığım işin en sevdiğim yanlarından biri. Çünkü sizin öneri, problem veya iş birliği istekleriniz sayesinde yeni tecrübeler edinebilirim.",
+    "contact_form_name_surname": "Ad Soyad",
+    "contact_form_name_placeholder": "Adınızı ve soyadınızı giriniz.",
+    "contact_form_email_placeholder": "Email adresinizi giriniz.",
+    "contact_form_message": "Mesajınız",
+    "contact_form_message_placeholder": "Mesajınızı giriniz...",
+    "contact_form_message_success": "Mesajınız başarılı bir şekilde iletilmiştir.",
+    "contact_form_send_message": "Mesaj Gönder",
+    "contact_form_name_validation": "Lütfen adınızı ve soyadınızı giriniz.",
+    "go_up": "Yukarı Çık"
+}
