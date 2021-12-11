@@ -17,7 +17,13 @@ const GoUp = () => {
     }
 
     useEffect(() => {
-        window.addEventListener('scroll', toggleVisibility)
+        let isMounted = true
+        if (isMounted) {
+            window.addEventListener('scroll', toggleVisibility)
+        }
+        return () => {
+            isMounted = false
+        }
     }, [])
 
     const goToTop = (e) => {

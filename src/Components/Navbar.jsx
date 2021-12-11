@@ -3,7 +3,8 @@ import logoblack from '../Assets/Images/logoblack.png'
 import logowhite from '../Assets/Images/logowhite.png'
 import { IoMdPlanet } from 'react-icons/io'
 import { IoSunny } from 'react-icons/io5'
-import { AiOutlineGlobal } from 'react-icons/ai'
+import { AiOutlineGlobal, AiFillStar } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 import Dropdown from 'react-bootstrap/Dropdown'
 
@@ -50,15 +51,21 @@ const Navbar = ({ lightMode, setLightMode }) => {
             }
         >
             {lightMode ? (
-                <a href='/'>
+                <Link to='/'>
                     <img src={logoblack} alt='logo-black' className='logo' />
-                </a>
+                </Link>
             ) : (
-                <a href='/'>
+                <Link to='/'>
                     <img src={logowhite} alt='logo-white' className='logo' />
-                </a>
+                </Link>
             )}
             <ul className='navbar-item-wrapper'>
+                <li className='mr-2'>
+                    <Link to='/blog'>
+                        <AiFillStar size={20} className='mr-1' />
+                        BLOG
+                    </Link>
+                </li>
                 <li className='mr-2'>
                     <a href='#about' onClick={handleSmoothScroll}>
                         {t('about_me')}
@@ -82,6 +89,10 @@ const Navbar = ({ lightMode, setLightMode }) => {
             </ul>
 
             <div className='d-flex align-items-center'>
+                <Link to='/blog' className='blog-navbar-right'>
+                    <AiFillStar size={20} className='mr-1' />
+                    BLOG
+                </Link>
                 <Dropdown>
                     <Dropdown.Toggle
                         id='dropdown-basic'

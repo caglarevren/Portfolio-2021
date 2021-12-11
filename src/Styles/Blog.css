@@ -1,0 +1,156 @@
+/********** Blog Page Classes **********/
+.blog-section-outer-container {
+    background-color: inherit;
+}
+
+.blog-section-outer-container .navbar-item-wrapper {
+    display: none;
+}
+
+.blog-section {
+    height: 600px;
+}
+
+.blog-card-container {
+    color: #000;
+    height: 416px;
+}
+
+.blog-section-general-row {
+    margin-bottom: 2rem;
+}
+
+.blog-card-container .card-title {
+    font-weight: 600;
+}
+
+.blog-section-text {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.blog-avatar {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-right: 0.7rem;
+}
+
+.blog-footer-container {
+    display: flex;
+}
+
+.blog-footer-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-author {
+    color: #ba4609;
+    font-weight: 600;
+}
+
+.blog-date-readtime {
+    color: #0000008a;
+}
+
+.blog-card-container:hover {
+    transform: translate(2px, -2px);
+    transition: var(--main-transition);
+}
+
+.blog-card-container .card-img-top {
+    height: 50%;
+}
+
+.sort-image-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sort-img-wrapper {
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    .blog-section {
+        height: auto;
+    }
+
+    .center-element-img {
+        width: 100%;
+    }
+
+    .blog-card-container {
+        margin-bottom: 3rem;
+        height: auto;
+    }
+
+    .sort-image-wrapper {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .sort-img-wrapper {
+        justify-content: flex-start;
+    }
+
+    .sort-img {
+        width: 300px;
+        height: 190px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .blog-card-container .card-img-top {
+        height: 144px;
+    }
+}
+
+.center-elements-title {
+    padding: 3rem 0;
+}
+
+.center-text-outer-container {
+    background-color: inherit;
+}
+
+.center-text-outer-container .navbar-item-wrapper {
+    display: none;
+}
+
+.center-text-content-container {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.center-text-outer-container p {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.center-text-outer-container .center-text-blog-title {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.code-container {
+    background-color: #f6ccc1;
+    color: #000;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 3rem;
+}
+
+.blog-section-outer-container .blog-navbar-right,
+.center-text-outer-container .blog-navbar-right {
+    display: block;
+}
+
+.card-img-top {
+    object-fit: cover;
+    max-height: 200px;
+}

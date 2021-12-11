@@ -1,15 +1,25 @@
 {
-    "short_name": "Çağlar Evren",
     "name": "Çağlar Evren | Frontend Developer",
+    "short_name": "Çağlar Evren",
+    "start_url": "/",
+    "background_color": "#111827",
+    "theme_color": "#111827",
+    "display": "minimal-ui",
     "icons": [
         {
-            "src": "public/favicon",
-            "sizes": "32x32 16x16",
+            "src": "public/favicon/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "public/favicon/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "public/favicon/favicon.ico",
+            "sizes": "48x48",
             "type": "image/x-icon"
         }
-    ],
-    "start_url": "/",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
+    ]
 }

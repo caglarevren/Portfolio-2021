@@ -1,4 +1,6 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
+
 import {
     DiHtml5,
     DiCss3,
@@ -12,9 +14,11 @@ import { SiSpringboot } from 'react-icons/si'
 import { IoLogoVue } from 'react-icons/io5'
 
 const Backpack = () => {
+    const { t } = useTranslation()
+
     return (
         <div className='container icon-outer-container' id='backpack'>
-            <h3>Sırt Çantam</h3>
+            <h3>{t('technologies_navbar')}</h3>
             <div className='icon-container'>
                 <div className='html-icon-container'>
                     <DiHtml5 size={60} />
